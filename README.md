@@ -11,10 +11,10 @@ Homework project kali ini, akan menggunakan teknologi hadoop dan hadoop mapreduc
 <p align='center'><img src="https://editor.analyticsvidhya.com/uploads/46912mapreducepic3.png"/></p>
 <br>
 Penjelasan dari proses:
-- **Splitting**: Pada bagian ini, dilakukan proses pemisahan kata menjadi key dan value. Parameter pemisahan yang digunakan bisa berupa koma atau spasi atau baris baru atau titik koma.
-- **Mapper**: Pada bagian ini, sekumpulan data hasil pemisahan diambil untuk dikumpulkan ke dalam blok yang terdiri dari key dan value.
-- **Shuffling**: Pada bagian ini, terjadi di satu atau lebih cluster secara paralel. Proses yang terjadi adalah pengumpulan satu atau lebih key yang sama agar nanti mudah untuk dilakukan agregrasi.
-- **Reducer**: Pada bagian ini, dilakukan proses agregrasi terhadap nilai key dan value yang sama.
+- **Splitting**: Pada bagian ini, dilakukan proses pemisahan kata menjadi key dan value. Parameter pemisahan yang digunakan bisa berupa koma atau spasi atau baris baru atau titik koma. <br>
+- **Mapper**: Pada bagian ini, sekumpulan data hasil pemisahan diambil untuk dikumpulkan ke dalam blok yang terdiri dari key dan value. <br>
+- **Shuffling**: Pada bagian ini, terjadi di satu atau lebih cluster secara paralel. Proses yang terjadi adalah pengumpulan satu atau lebih key yang sama agar nanti mudah untuk dilakukan agregrasi. <br>
+- **Reducer**: Pada bagian ini, dilakukan proses agregrasi terhadap nilai key dan value yang sama. <br>
 - **Combining**: Pada bagian ini, hasil dari process reducer akan dikumpulkan kembali untuk menunjukan hasil final.  
 
 ## Output Project
