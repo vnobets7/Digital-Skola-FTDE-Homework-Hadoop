@@ -1,4 +1,4 @@
-![image](https://github.com/vnobets7/Digital-Skola-FTDE-Homework-Hadoop/blob/main/images/logo/Hadoop_logo.jpg)
+![image](https://github.com/vnobets7/Digital-Skola-FTDE-Homework-Hadoop/blob/main/images/logo/hadoop.png)
 
 # Digital-Skola-FTDE-Homework-Hadoop
 ## Deskripsi Homework
@@ -10,7 +10,7 @@ Homework project kali ini, akan menggunakan teknologi hadoop dan hadoop mapreduc
 ## Project Workflow
 <p align='center'><img src="https://editor.analyticsvidhya.com/uploads/46912mapreducepic3.png"/></p>
 <br>
-Penjelasan dari proses:
+Penjelasan dari proses:<br>
 - **Splitting**: Pada bagian ini, dilakukan proses pemisahan kata menjadi key dan value. Parameter pemisahan yang digunakan bisa berupa koma atau spasi atau baris baru atau titik koma. <br>
 - **Mapper**: Pada bagian ini, sekumpulan data hasil pemisahan diambil untuk dikumpulkan ke dalam blok yang terdiri dari key dan value. <br>
 - **Shuffling**: Pada bagian ini, terjadi di satu atau lebih cluster secara paralel. Proses yang terjadi adalah pengumpulan satu atau lebih key yang sama agar nanti mudah untuk dilakukan agregrasi. <br>
